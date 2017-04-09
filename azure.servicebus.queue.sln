@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue.writer", "queue.writer\queue.writer.csproj", "{D57E089F-AAAB-4086-9C84-A391B259A7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue.reader", "queue.reader\queue.reader.csproj", "{712DFBE6-EFE3-42E8-8A13-A3566BBB9D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue.model", "..\queue.model\queue.model.csproj", "{56152ED6-7323-4658-8015-189BB3E1A8CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57E089F-AAAB-4086-9C84-A391B259A7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57E089F-AAAB-4086-9C84-A391B259A7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57E089F-AAAB-4086-9C84-A391B259A7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57E089F-AAAB-4086-9C84-A391B259A7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712DFBE6-EFE3-42E8-8A13-A3566BBB9D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712DFBE6-EFE3-42E8-8A13-A3566BBB9D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712DFBE6-EFE3-42E8-8A13-A3566BBB9D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712DFBE6-EFE3-42E8-8A13-A3566BBB9D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56152ED6-7323-4658-8015-189BB3E1A8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56152ED6-7323-4658-8015-189BB3E1A8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56152ED6-7323-4658-8015-189BB3E1A8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56152ED6-7323-4658-8015-189BB3E1A8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

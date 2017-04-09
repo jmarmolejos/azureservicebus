@@ -1,0 +1,5 @@
+﻿{
+  "QueueName": "createorder",
+  "MessageEndpoint": "http://localhost:3000/requestbin",
+  "ConnectionString": "<service_bus_connectionstring>"
+}
